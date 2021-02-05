@@ -1,0 +1,15 @@
+[package]
+authors = ["Yasuo Ozu <yasuo@ozu.email>"]
+name = "sat_test"
+version = "0.0.0"
+edition = "2018"
+publish = false
+readme = "README.md"
+license = "UNLICENSED"
+description = "Testing project for sat solver"
+
+[dependencies]
+screwsat = { git = "https://github.com/yasuo-ozu/screwsat.git", branch = "add-heauristics" }
+rand = { version = "0.8", features = ["small_rng"]}
+anyhow = "1.0"
+plotlib = "0.5"
