@@ -1,1 +1,4 @@
 target
+*.jpg
+*.pdf
+*.svg
