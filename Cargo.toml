@@ -13,3 +13,4 @@ screwsat = { git = "https://github.com/yasuo-ozu/screwsat.git", branch = "add-he
 rand = { version = "0.8", features = ["small_rng"]}
 anyhow = "1.0"
 plotlib = "0.5"
+hsl = "0.1"
