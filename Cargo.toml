@@ -10,6 +10,8 @@ description = "Testing project for sat solver"
 
 [dependencies]
 screwsat = { git = "https://github.com/yasuo-ozu/screwsat.git", branch = "add-heauristics" }
+spoon_q = { git = "https://github.com/SpoonQ/spoonq.git", branch = "main" }
+rustqubo = { git = "https://github.com/SpoonQ/rustqubo.git", branch = "main" }
 rand = { version = "0.8", features = ["small_rng"]}
 anyhow = "1.0"
 plotlib = "0.5"
